@@ -4,7 +4,21 @@
 
 # Screenshots:
 
-![home](./assets/)
+**Large screen display**
+![lg-screen-display](./assets/solution-screenshots/lg-screen-display.png)
+
+**Large screen display information**
+![lg-screen-display-info](./assets/solution-screenshots/lg-screen-display-info.png)
+
+**Large screen hotel information**
+![lg-screen-hotel-info](./assets/solution-screenshots/lg-screen-hotel-info.png)
+
+**Medium screen**
+![home](./assets/solution-screenshots/medium-screen.png)
+
+**Small screen**
+![home](./assets/solution-screenshots/small-screen.png)
+
 
 # Technologies used:
 
