@@ -6,6 +6,21 @@
   padding: 0;
 }
 
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
 /* Navbar */
 
 nav {
@@ -15,6 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background: white;
+  z-index: 100;
 }
 
 nav > img {
@@ -35,7 +51,7 @@ nav > img {
 
 /* Home display - hero image card */
 
-#home-display {
+#home-display > div {
   top: 50px;
   position: relative;
 }
@@ -60,17 +76,66 @@ nav > img {
 }
 
 #display-info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  margin-top: -5px;
   gap: 50px;
   padding: 30px;
-  padding-top: 79px;
   background: rgb(168, 168, 168);
 }
 
-#display-info p {
-  width: 300px;
+/* Hotel info cards */
+
+#hotel-info-cards-main {
+  margin-top: 80px;
+  padding: 30px;
+}
+
+#hotel-info-cards-main h1 {
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+#info-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#info-cards div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#info-cards img {
+  width: 100%;
+}
+
+#info-cards button {
+  background: black;
+  color: white;
+  border: 0px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.dining {
+  text-align: center;
+}
+
+.dining button {
+  margin: auto;
+}
+
+.pool {
+  text-align: right;
+}
+
+.pool button {
+  margin-left: auto;
 }
