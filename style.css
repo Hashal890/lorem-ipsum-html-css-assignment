@@ -1,0 +1,59 @@
+/* Common */
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+nav > img {
+  width: 50px;
+}
+
+#nav-headers {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#whatsapp-facebook-logos {
+  display: flex;
+  gap: 10px;
+}
+
+/* Home display - hero image card */
+
+#home-display {
+  top: 50px;
+  position: relative;
+}
+
+#home-display img {
+  width: 100%;
+}
+
+#home-display button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 20px;
+  padding: 8px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: 0px;
+  background: linear-gradient(to right, #000000, #8b8b8b);
+  color: white;
+  font-weight: 600;
+}
