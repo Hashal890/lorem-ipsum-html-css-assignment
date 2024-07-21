@@ -88,8 +88,8 @@ nav > img {
 /* Hotel info cards */
 
 #hotel-info-cards-main {
-  margin-top: 80px;
-  padding: 30px;
+  margin-top: 60px;
+  padding: 50px;
 }
 
 #hotel-info-cards-main h1 {
@@ -142,7 +142,7 @@ nav > img {
 
 /* Responsiveness */
 
-@media (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 600px) {
   #nav-headers {
     display: none;
   }
@@ -159,9 +159,35 @@ nav > img {
     gap: 30px;
     padding: 30px;
   }
+  #hotel-info-cards-main {
+    padding: 20px;
+    margin-top: 80px;
+  }
   #info-cards {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
   }
 }
 
+@media (min-width: 601px) and (max-width: 1000px) {
+  #nav-headers {
+    font-size: 14px;
+  }
+  #home-display button {
+    bottom: 15px;
+    left: 10px;
+    font-size: 18px;
+    padding: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #display-info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
+  }
+  #info-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
