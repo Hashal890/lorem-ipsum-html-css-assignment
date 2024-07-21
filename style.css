@@ -139,3 +139,29 @@ nav > img {
 .pool button {
   margin-left: auto;
 }
+
+/* Responsiveness */
+
+@media (min-width: 0px) and (max-width: 500px) {
+  #nav-headers {
+    display: none;
+  }
+  #home-display button {
+    bottom: 10px;
+    left: 5px;
+    font-size: 14px;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #display-info {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding: 30px;
+  }
+  #info-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
