@@ -56,4 +56,21 @@ nav > img {
   background: linear-gradient(to right, #000000, #8b8b8b);
   color: white;
   font-weight: 600;
+  cursor: pointer;
+}
+
+#display-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 30px;
+  padding-top: 79px;
+  background: rgb(168, 168, 168);
+}
+
+#display-info p {
+  width: 300px;
 }

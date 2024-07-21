@@ -21,6 +21,19 @@ const addNavbarHeadings = () => {
   });
 };
 
+const addLoremIpsumTextBelowDisplayImage = () => {
+  const displayInformationLoremIpsumText =
+    document.getElementById("display-info");
+  const sampleLoremIpsumText =
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dolore accusamus id amet nobis molestias doloremque praesentium aperiam veniam officia, facere quis eveniet pariatur rem temporibus aliquam odio atque qui.";
+  for (let i = 0; i < 3; i++) {
+    const newDisplayInfoText = document.createElement("p");
+    newDisplayInfoText.innerHTML = sampleLoremIpsumText;
+    displayInformationLoremIpsumText.appendChild(newDisplayInfoText);
+  }
+};
+
 window.addEventListener("load", () => {
   addNavbarHeadings();
+  addLoremIpsumTextBelowDisplayImage();
 });
