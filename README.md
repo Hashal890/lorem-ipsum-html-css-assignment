@@ -4,21 +4,18 @@
 
 # Screenshots:
 
-**Large screen display**
-![lg-screen-display](./assets/solution-screenshots/lg-screen-display.png)
+- ## Large screens:
 
-**Large screen display information**
-![lg-screen-display-info](./assets/solution-screenshots/lg-screen-display-info.png)
+  ![lg-screen-display](./assets/solution-screenshots/lg-screen-display.png)
+  ![lg-screen-display-info](./assets/solution-screenshots/lg-screen-display-info.png)
+  ![lg-screen-hotel-info](./assets/solution-screenshots/lg-screen-hotel-info.png)
 
-**Large screen hotel information**
-![lg-screen-hotel-info](./assets/solution-screenshots/lg-screen-hotel-info.png)
+- ## Medium screens
 
-**Medium screen**
-![home](./assets/solution-screenshots/medium-screen.png)
+  ![home](./assets/solution-screenshots/medium-screen.png)
 
-**Small screen**
-![home](./assets/solution-screenshots/small-screen.png)
-
+- ## Small screens
+  ![home](./assets/solution-screenshots/small-screen.png)
 
 # Technologies used:
 
